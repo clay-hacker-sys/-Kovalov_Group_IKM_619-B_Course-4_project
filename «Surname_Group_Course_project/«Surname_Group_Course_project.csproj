@@ -61,16 +61,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="..\..\..\..\Desktop\курсач 4\Project\About.cs">
       <SubType>Form</SubType>
+      <Link>About.cs</Link>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="..\..\..\..\Desktop\курсач 4\Project\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+      <Link>About.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\Desktop\курсач 4\Project\Form1.cs">
+      <SubType>Form</SubType>
+      <Link>Form1.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\Desktop\курсач 4\Project\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+      <Link>Form1.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\Desktop\курсач 4\Project\MajorWork.cs">
+      <Link>MajorWork.cs</Link>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="..\..\..\..\Desktop\курсач 4\Project\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <Link>About.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\Desktop\курсач 4\Project\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+      <Link>Form1.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
